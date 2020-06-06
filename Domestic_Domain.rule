@@ -5,8 +5,8 @@ payload:
 # >>rixCloud
   - 'doh.rixcloud.dev'
   - '+rixcloudstatus.com'
-  - '+rixcloudstatus.io''
-  - '+rixcloud.fail''
+  - '+rixcloudstatus.io'
+  - '+rixcloud.fail'
 
 # >> 360
   - '+qhimg.com'
