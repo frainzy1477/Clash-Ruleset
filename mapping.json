@@ -1,6 +1,6 @@
 {
-    "clash_reejct_domains": "Reject_Domain.rule",
-    "clash_reejct_ips": "Reject_IP.rule",
+    "clash_reject_domains": "Reject_Domain.rule",
+    "clash_reject_ips": "Reject_IP.rule",
     "clash_stream_services_domains": "Stream_Domain.rule",
     "clash_stream_services_ips": "Stream_IP.rule",
     "clash_domestic_services_domains": "Domestic_Domain.rule",
