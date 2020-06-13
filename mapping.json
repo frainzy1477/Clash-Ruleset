@@ -4,6 +4,7 @@
     "clash_stream_services_domains": "Stream_Domain.rule",
     "clash_stream_services_ips": "Stream_IP.rule",
     "clash_domestic_services_domains": "Domestic_Domain.rule",
+    "clash_domestic_services_ips": "Domestic_IP.rule",
     "clash_apple_services_domains": "Apple_Domain.rule",
     "clash_netease_music_domains": "Netease_Music_Domains.rule",
     "clash_global_services_domains": "Global_Domain.rule",
