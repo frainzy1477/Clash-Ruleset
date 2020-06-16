@@ -86,6 +86,7 @@ payload:
   - '+.analysys.cn'
   - '+.api.appsee.com'
   - '+.app-adforce.jp'
+  - '+.app-measurement.com'
   - '+.appboy.com'
   - '+.appier.net'
   - '+.appnext.com'
@@ -246,6 +247,7 @@ payload:
   - 'app-ad.variflight.com'
   - 'applog.mobike.com'
   - 'appnext.hs.llnwd.net'
+  - 'extlog.snssdk.com'
   - 'ggs.myzaker.com'
   - 'log.b612kaji.com'
   - 'log.snssdk.com'
@@ -258,6 +260,7 @@ payload:
   - 'mopnativeadv.037201.com'
   - 'nativeadv.dftoutiao.com'
   - 'pagead2.googlesyndication.com'
+  - 'pangolin.snssdk.com'
   - 'report.jpush.cn'
   - 's0.2mdn.net'
   - 'sp0.baidu.com'
@@ -322,6 +325,7 @@ payload:
 
 # >> Bilibili
 
+  - 'thirdparty.biliapi.com'
   - 'thirdparty.biliapi.com'
   - 'cm.bilibili.com'
 
@@ -426,8 +430,6 @@ payload:
   - 'v2.reachmax.cn'
   - 'track.sohu.com'
 
-# >> JD
-
 # >> Tencent
   - '+.bugly.qq.com'
   - '+.e.qq.com'
@@ -443,8 +445,6 @@ payload:
   - 'splashqqlive.gtimg.com'
   - 'tajs.qq.com'
 
-# >> TikTok (include China / Internation Version)
-
 # >> Tonghuahshun
   - 'adm.10jqka.com.cn'
   - 'stat.10jqka.com.cn'
@@ -454,9 +454,6 @@ payload:
   - 'applogios.uc.cn'
   - 'track.uc.cn'
 
-# > WeChat
-
-
 # >> Xiaomi
   - '+.ad.xiaomi.com'
   - '+.ad.intl.xiaomi.com'
@@ -464,6 +461,13 @@ payload:
   - '+.tracking.miui.com'
   - 'adv.sec.miui.com'
   - 'o2o.api.xiaomi.com'
+
+# XiguaVideo
+   - 'v1-dc-ad.ixigua.com'
+   - 'v3-ad.ixigua.com'
+   - 'v3-dc-ad.ixigua.com'
+   - 'v6-dc-ad.ixigua.com'
+   - 'v9-dc-ad.ixigua.com'
 
 # >> XiMaLaYa
   - 'ad.ximalaya.com'
@@ -483,7 +487,6 @@ payload:
   - 'pvnapp.zol.com.cn'
 
 # >> Zhihu
-
   - 'mqtt.zhihu.com'
   - '+.xdrig.com'
 
