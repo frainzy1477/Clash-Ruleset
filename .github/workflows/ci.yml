@@ -18,16 +18,18 @@ jobs:
         USER_TOKEN: ${{ secrets.USER_TOKEN }}
 
       run: |
-        RULESETS=$(cat $MAPPING_FILE | jq -r "keys | join(\" \")")
+        curl -sSL https://github.com/stedolan/jq/releases/download/jq-1.6/jq-linux64 -o jq
+        chmod +x jq
+        export JQ="./jq"
+        RULESETS=$(cat $MAPPING_FILE | $JQ -r "keys | join(\" \")")
         
         for RULE in $RULESETS; do
-          RULE_NAME=$(cat $MAPPING_FILE | jq -r '.["'$RULE'"]')
-          RULE_DATA=$(cat $RULE_NAME)
+          RULE_NAME=$(cat $MAPPING_FILE | $JQ -r '.["'$RULE'"]')
 
           # POST as rule set
           echo "Starting upload $RULE_NAME"
 
-          jq -n --arg data "$RULE_DATA" '{"data": $data}' | curl -X PATCH \
+          $JQ -n --rawfile data $RULE_NAME '{"data": $data}' | curl -X PATCH \
               $API_ENDPOINT/profile/cloud/ruleset/$RULE \
               -H "Content-Type: application/json; charset=utf-8" \
               -u $USER_TOKEN \
