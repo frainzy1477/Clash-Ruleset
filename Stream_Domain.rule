@@ -257,9 +257,10 @@ payload:
 
 # >> Youtube
   - 'youtubei.googleapis.com'
-
   - '+.googlevideo.com'
-  - '+.youtube.com'
+  - '+.youtube.*'
+  - '+.gvt2.com'
+  - '+.youtu.be'
 
 
 # >> SHOWTIME
