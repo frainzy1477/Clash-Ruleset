@@ -8742,11 +8742,11 @@ payload:
   - 'o2o.api.xiaomi.com'
 
 # XiguaVideo
-   - 'v1-dc-ad.ixigua.com'
-   - 'v3-ad.ixigua.com'
-   - 'v3-dc-ad.ixigua.com'
-   - 'v6-dc-ad.ixigua.com'
-   - 'v9-dc-ad.ixigua.com'
+  - 'v1-dc-ad.ixigua.com'
+  - 'v3-ad.ixigua.com'
+  - 'v3-dc-ad.ixigua.com'
+  - 'v6-dc-ad.ixigua.com'
+  - 'v9-dc-ad.ixigua.com'
 
 # >> XiMaLaYa
   - 'ad.ximalaya.com'
