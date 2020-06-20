@@ -1,6 +1,7 @@
 payload:
 
 # >> Apple
+  - '+.apple.com'
   - '+.aaplimg.com'
   - '+.api-glb-sea.smoot.apple.com'
   - '+.apple-cloudkit.com'
